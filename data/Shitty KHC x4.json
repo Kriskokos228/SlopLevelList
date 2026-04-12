@@ -8,11 +8,6 @@
     "percentToQualify": 100,
     "password": "2.2",
     "records": [
-        {
-            "user": "redchance",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": "cbf"
-        }
+        
     ]
 }
