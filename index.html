@@ -37,7 +37,24 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>Sample List</h2>
+                <style>
+                  .rainbow-animated {
+                    font-size: 48px;
+                    font-weight: bold;
+                    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+                    background-size: 200% auto;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                    /* Define the animation */
+                    animation: rainbow-shift 3s linear infinite;
+                    }
+
+                    @keyframes rainbow-shift {
+                    to { background-position: 200% center; }
+                    }
+                </style>
+                <h2>Slop Level List</h2>
                 <p>v1.0.0</p>
             </div>
             <nav class="nav">
