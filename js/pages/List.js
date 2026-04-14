@@ -61,7 +61,7 @@ export default {
                         <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
                         <p v-else>This level does not accept new records.</p>
                         <td class="fps">
-                            <p>fps</p>
+                            <p>        fps</p>
                         </td>
                     </table>
                     
