@@ -60,7 +60,7 @@ export default {
                         <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                         <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
                         <p v-else>This level does not accept new records.</p>
-                        <td class="hz">
+                        <td class="fps">
                             <p>fps</p>
                         </td>
                     </table>
