@@ -8,9 +8,11 @@
     "percentToQualify": 100,
     "password": "2.2",
     "records": [
-        "user": "angelblccm",
-        "link": "https://youtu.be/EiLsuiqe3FI",
-        "percent": 100,
-        "hz": "cbf "
+        {
+            "user": "angelblccm",
+            "link": "https://youtu.be/EiLsuiqe3FI",
+            "percent": 100,
+            "hz": "cbf "
+        }
     ]
 }
